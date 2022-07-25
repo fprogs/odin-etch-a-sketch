@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: #eee;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 4px 32px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  background: #ccc;
+}
+
+.container {
+/*
+ * the width accounts for .sketch-area 1px border
+*/
+  width: 1002px;
+  margin: 50px auto;
+}
+
+.sketch-area {
+  height: 1000px;
+  background: white;
+  border: 1px solid black;
+}
